@@ -1,0 +1,10 @@
+1.C++的返回值不能是数组，但可以是指针，如char * str(char * s,int n)；
+2.arr[i]=*(arr+i);&arr[i]=arr+i;
+3.传递常规变量时，函数将使用该变量的拷贝；但传递数组时，函数将使用原来的数组（使用指针指向数组地址）；
+4.传递数组的函数两种表达方式：void array(int arr[],int size);void array(int * begin,int * end);//后者可指定传入数组的某个连续部分；
+5.调用函数时，当我们不希望改变实参，可以const int * p=&a；//其中*p不可修改，既可以保护a的值；
+6.二位数组的传入表达方式：int sum(int ar2[][列数]，int size)；//其中列数为一个阿拉伯数字，需要你输入进去；
+
+//字符串数组
+7.char s[100]="handsome";与char *s="handsome"；是等价的表述；
+8.char *str="asijoiashga";while(*str){str++;}//字符串数组str最后还有一个"/0"表示结束；
