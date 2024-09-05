@@ -7,4 +7,7 @@
 
 //字符串数组
 7.char s[100]="handsome";与char *s="handsome"；是等价的表述；
-8.char *str="asijoiashga";while(*str){str++;}//字符串数组str最后还有一个"/0"表示结束；
+8.char *str="asijo";while(*str){str++;}//字符串数组str最后还有一个"/0"表示结束,所以这里str[]是六个字符的数组；
+9.array<数据类型，个数> 数组名={}；//如：array<string,4> season={"spring","summer","fall","winter"};
+
+
