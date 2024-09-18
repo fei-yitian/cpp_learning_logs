@@ -1,3 +1,3 @@
-1.double *pf(int);//一个输入为int，输出为一个指针指向double类型的函数；
+1.double *pf(int);//一个输入为int，输出为一个指针，指向double类型；
 2.double (*pf) (int);//一个指向函数的指针，输入为int，返回值为double；
-3.double pam(int);double (*pf) (int);pf=pam；//pf和pam()的特征标和返回类型必须相同！
+3.double pam(int);double (*pf) (int);pf=pam；//pf和pam()的特征标和返回类型必须相同！由此可见pam为一个地址，而pam()为一个double类型
